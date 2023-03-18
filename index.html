@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="loading" class="loading-screen">
+      <span class="loader"></span>
+      </div>
+  <div class="overlay min-vh-100 position-fixed d-flex top-0">
+    <div class="side-nav  d-flex flex-column justify-content-between min-vh-100 p-4">
+        <div class="links">
+            <ul class="list-unstyled overflow-hidden">
+                <li  class="py-2 position-relative cursor-pointer" id="searchInput">Search</li>
+                <li  class="py-2 position-relative cursor-pointer" id="Category">Categories</li>
+                <li class="py-2 position-relative cursor-pointer" id="AreaInput">Area</li>
+                <li  class="py-2 position-relative cursor-pointer" id="IngredientsInput">Ingredients</li>
+                <li  class="py-2 position-relative cursor-pointer" id="ContactsInput">Contact Us</li>
+            </ul>
+        </div>
+        <div class="nav-footer">
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="footer">
+                <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <div class="nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+        <img class="logo" src="logo.png" alt="" srcset="">
+        <i class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+        <div>
+            <i class="fa-solid fa-globe d-block"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+    </div>
+</div>
+<div class="items">
+    <section class="container">
+     <div class="row py-4 g-2 meals">
+
+     </div>
+    </section>
+    <section class="container w-75 nonActive" id="search">
+        <div id="searchContainer">
+    
+        </div>
+                <div class="row py-5 g-4 meals">
+                </div>
+        </section>
+
+        <section class="container w-75 nonActive" id="categoryBox">
+
+                    <div class="row py-5 g-4 list" id="listCategry">
+
+                    </div>
+                    <div class="row py-4 g-2 meals nonActive" id="specificCategory">
+
+                    </div>
+            </section>
+
+            <section class="container nonActive" id="displayDetail">
+                <div class="row py-4 g-4 " id="mealDetails"></div>
+
+        </section>
+
+        <section class="container nonActive" id="displayCategoryDetail">
+            <div class="row py-4 g-4 " id="categoryDetails"></div>
+       
+    </section>
+<section id="area" class="container nonActive">
+        <div class="row py-4 g-2 list" id="Arealist">
+         
+        </div>
+        <div class="row py-4 g-2 meals nonActive" id="Areameals">
+         
+        </div>
+</section>
+
+
+<section id="Ingredients" class="container nonActive">
+    <div class="row py-4 g-2 list" id="IntergatesList">
+     
+    </div>
+    <div class="row py-4 g-2 meals nonActive" id="IntergatesMeals">
+     
+    </div>
+</section>
+
+<section id="contact" class="container nonActive">
+    
+</section>
+</div>
+
+
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="./js/jquery-3.6.3.min.js"></script>  
+  <script src="./js/main.js"></script>
+</body>
+</html>
